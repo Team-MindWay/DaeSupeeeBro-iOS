@@ -10,8 +10,8 @@ public struct ProjectEnvironment {
 }
 
 public let env = ProjectEnvironment(
-    name: "",
-    organizationName: "",
+    name: "DaeSup",
+    organizationName: "Mindway-DaeSup",
     destinations: [.iPhone, .iPad],
     deploymentTargets: .iOS("16.0"),
     baseSetting: [:]
