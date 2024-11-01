@@ -113,6 +113,7 @@ struct MainView: View {
                         .padding(.top, 20)
                         .padding(.trailing, 200)
                         VStack {
+                            
                             ScrollView(.horizontal, showsIndicators: false) {
                                 HStack(spacing: 20) {
                                     ForEach(1..<10) { index in
