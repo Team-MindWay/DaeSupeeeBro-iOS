@@ -29,7 +29,7 @@ struct MainView: View {
                     }
                 }
             }
-            .padding(.top, 130)
+            .padding(.top, 40)
             ZStack {
                 Rectangle()
                     .fill(.gray)
@@ -54,6 +54,7 @@ struct MainView: View {
                             .padding(.top, 20)
                     }
                     .padding(.trailing, 140)
+                    
                     VStack {
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 20) {
@@ -98,6 +99,7 @@ struct MainView: View {
                             }
                             .padding(.horizontal, 40)
                         }
+                        
                         .frame(maxWidth: .infinity)
                         HStack(spacing: 0) {
                             Text("오늘의 ")
@@ -155,16 +157,6 @@ struct MainView: View {
                                 .padding(.horizontal, 40)
                             }
                             .frame(maxWidth: .infinity)
-                        }
-                        ZStack{
-                            Rectangle()
-                                .fill(.white)
-                                .frame(height: 90)
-                            HStack(alignment: .center, spacing: 100){
-                                Image("MainTapView")
-                                Image("AddPost")
-                                Image("MyPage")
-                            }
                         }
                     }
                 }
