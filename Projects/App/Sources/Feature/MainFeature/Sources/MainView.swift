@@ -124,6 +124,7 @@ struct MainView: View {
                                                 Text("AI과 1짱")
                                                     .daesupFont(Font.regular, size: 14)
                                             }
+                                            
                                             HStack(alignment: .bottom){
                                                 Text("내용 내용 내용 내용 김박최수연 김박최수연 김박최수연 제로산소 제로산소 제로산소 제로산소제로산소 제로산소 제로산소 제로산소adfaasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf")
                                                     .daesupFont(Font.regular, size: 16)
