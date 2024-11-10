@@ -11,15 +11,16 @@ import SwiftUI
 
 typealias Font = DaeSupFontFamily.Pretendard
 typealias Color = DaeSupAsset.Color
+// typealias Image =
 
 extension View {
     func daesupFont(_ font: DaeSupFontConvertible, size: CGFloat) -> some View {
         self.font(font.swiftUIFont(size: size))
     }
-    //.daesupFont(Font.폰트종류, size: 사이즈)
-    
+    // .daesupFont(Font.폰트종류, size: 사이즈)
     func daesupColor(_ color: DaeSupColors) -> some View {
-            self.foregroundColor(color.swiftUIColor)
+        self.foregroundColor(color.swiftUIColor)
     }
-    //.daesupColor(Color.색상종류)
+    // .daesupColor(Color.색상종류)
+    //DaeSupAsset.Image.mainTapView.swiftUIImage
 }
